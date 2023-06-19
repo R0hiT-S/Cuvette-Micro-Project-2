@@ -1,0 +1,228 @@
+body{
+  margin: 0%;
+}
+
+#Nav{
+  background-color: #6F6AF7;
+  position: fixed;
+  height:10vh;
+  width: 100%;
+  z-index: 99999999;
+}
+
+#Nav ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#Nav li{
+  color: aliceblue;
+  float: left;
+}
+
+#Nav a{
+  margin: 5vh;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+#Nav a:hover{
+  color: rgb(211, 83, 89);
+}
+
+#Nav #dappr{
+  padding-right: 8vh;
+}
+
+#Nav input{
+  overflow: hidden;
+  margin-left: 10vh;
+  height: 5vh;
+  width: 38vh;
+  border-radius: 12vh;
+  background-image: url(search.svg);
+  background-repeat: no-repeat;
+  background-position: 32vh;
+}
+
+#Nav #vec{
+  margin-left: 18vh;
+}
+
+#content div{
+  display: inline-flex;
+  position: relative;
+  margin: 3vh;
+}
+
+#bodyBox1{
+  top: 23vh;
+  left: 13vh;
+  height: 60vh;
+}
+
+#bodyBox2{
+  background-color: rgba(193, 123, 240, 0.489);
+  font-size: 3vh;
+  letter-spacing: 0.1vh;
+  word-spacing: 0.2vh;
+  height: 55vh;
+  width: 95vh;
+  bottom: 26vh;
+  left: 13vh;
+  border-radius: 4vh;
+  padding-left: 6vh;
+  padding-top: 5vh;
+  padding-right: 12vh;
+}
+
+#icons{
+  float: right;
+  position: sticky;
+  bottom: 50vh;
+}
+
+#icons ul{
+  list-style-type: none;
+}
+
+#statbox .Box{
+  float: left;
+  margin-left: 10vh;
+  font-size: larger;
+  width: 35vh;
+  position: relative;
+  bottom: 15vh;
+  color: #ffffff;
+}
+
+#statbox #Question{
+  background-color: #939efff6;
+  height: 10vh;
+  padding: 3vh;
+  padding-bottom: 0%;
+  border-radius: 2vh;
+}
+
+#statbox #Answer{
+  background-color: #734CF2;
+  height: 10vh;
+  padding: 3vh;
+  padding-bottom: 0%;
+  border-radius: 2vh;
+}
+
+#statbox #Participated{
+  background-color: #D288FF;
+  height: 10vh;
+  padding: 3vh;
+  padding-bottom: 0%;
+  border-radius: 2vh;
+}
+
+#statbox #Passed{
+  background-color: black;
+  height: 10vh;
+  padding: 3vh;
+  padding-bottom: 0%;
+  border-radius: 2vh;
+}
+
+#stats ul{
+  list-style-type: none;
+
+}
+
+#footer ul{
+  list-style-type: none;
+}
+
+#footer{
+  background-color: blue;
+  margin: 15vh;
+  margin-top: 12vh;
+  border-radius: 2vh;
+  padding: 2vh;
+}
+
+#fList{
+  display: inline-flex;
+  position: relative;
+  left: 18vh;
+  color: #ffffff;
+  font-size: x-large;
+}
+
+#fInfo{
+  display: inline-flex;
+  background-color: white;
+  border-radius: 2vh;
+  height: 50vh;
+  width: 85vh;
+  margin: 2vh;
+  position: relative;
+  left: 40vh;
+  font-size: x-large;
+  line-height: 5vh;
+}
+#fInfo b{
+  font-size: xx-large;
+  position: relative;
+  right: 3vh;
+  line-height: 10vh;
+}
+
+#urInfo{
+  background-color: #BCE0F6;
+  color: black;
+  border-radius: 2vh;
+  height: 7vh;
+  width: 29vh;
+  text-align: center;
+  padding-top: 4vh;
+  margin-bottom: 6vh;
+}
+
+#book{
+  border-style:solid;
+  border-radius: 2vh;
+  height: 7vh;
+  width: 28vh;
+  border-color: #ffffff;
+  margin-bottom: 6vh;
+  text-align: center;
+  padding-top: 4vh;
+}
+
+#set{
+  border-style:solid;
+  border-radius: 2vh;
+  border-color: #ffffff;
+  height: 7vh;
+  width: 28vh;
+  text-align: center;
+  padding-top: 4vh;
+}
+
+#next button{
+  position: relative;
+  bottom: 30vh;
+  left: 160vh;
+  height: 7vh;
+  width: 15vh;
+  background-color: black;
+  color: #ffffff;
+  font-size: large;
+  border-radius: 1vh;
+}
+
+#chat img{
+  position: fixed;
+  top: 75%;
+  left: 80%;
+  margin: 0%;
+  padding: 0%;
+  width: 20vh;
+  height: 20vh;
+}
